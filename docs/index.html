@@ -182,12 +182,14 @@
 
 	</center>
 
+	<center><h1>Hand Dimensions</h1></center>
+	<p align="center">
 	<center>
 		<table align=center width=850px>
 			<tr>
 				<td width=260px>
 					<center>
-						<img class="round" style="width:500px" src="./resources/justin_holding_cube.png"/>
+						<img class="round" style="width:500px" src="./resources/hand_size.png"/>
 					</center>
 				</td>
 			</tr>
@@ -195,23 +197,12 @@
 		<table align=center width=850px>
 			<tr>
 				<td>
-					Agile Justin holding the cube. No sensors other than the finger positions are used.
+					Hand dimensions as well as the angles and their limits. <i>&theta;</i><sub>min</sub> and <i>&theta;</i><sub>max</sub> denote the physical limits of the real kinematics while <i>&theta;</i><sub>lower</sub> and <i>&theta;</i><sub>upper</sub> are used for the simulated hand as well as the scaling of the network output. The PD Impedance Controller is parameterized by <i>K</i><sub>P</sub> and <i>K</i><sub>D</sub>. The parasitic stiffness is modeled by <i>K</i><sub>e</sub>. <i>F</i><sub>static</sub> denotes the static friction force.
 				</td>
 			</tr>
 		</table>
 	</center>
-
-	<hr>
-
-	<table align=center width=850px>
-		<center><h1>Abstract</h1></center>
-		<tr>
-			<td>
-				We show that a purely tactile dextrous in-hand manipulation task with continuous regrasping, requiring permanent force closure, can be learned from scratch and executed robustly on a torque-controlled humanoid robotic hand. The task is rotating a cube without dropping it, but in contrast to OpenAI's seminal cube manipulation task, the palm faces downwards and no cameras but only the hand's position and torque sensing are used. Although the task seems simple, it combines for the first time all the challenges in execution as well as learning that are important for using in-hand manipulation in real-world applications. We efficiently train in a precisely modeled and identified rigid body simulation with off-policy deep reinforcement learning, significantly sped up by a domain adapted curriculum leading to a only moderate 600 CPU hours training time. The resulting policy is robustly transferred to the real humanoid DLR Hand-II, e.g., reaching more than 50 full 2&#960 rotations of the cube in a single run and allowing for disturbances like different cube sizes (up to 2cm variation), hand orientation, or pulling a finger.
-			</td>
-		</tr>
-	</table>
-	<br>
+	</p>
 
 	<hr>
 	<center><h1>Video</h1></center>
