@@ -267,19 +267,13 @@
                     </td>
                 </tr>
             </table>
-            <table align=center width=850px>
-                <tr>
-                    <td>
-                        Hand dimensions as well as the angles and their limits. <i>&theta;</i><sub>min</sub> and
-                        <i>&theta;</i><sub>max</sub> denote the physical limits of the real kinematics while
-                        <i>&theta;</i><sub>lower</sub> and <i>&theta;</i><sub>upper</sub> are used for the simulated
-                        hand as well as the scaling of the network output. The PD Impedance Controller is parameterized
-                        by <i>K</i><sub>P</sub> and <i>K</i><sub>D</sub>. The parasitic stiffness is modeled by
-                        <i>K</i><sub>e</sub>. <i>F</i><sub>static</sub> denotes the static friction force.
-                    </td>
-                </tr>
-            </table>
         </center>
+        Hand dimensions as well as the angles and their limits. <i>&theta;</i><sub>min</sub> and
+        <i>&theta;</i><sub>max</sub> denote the physical limits of the real kinematics while
+        <i>&theta;</i><sub>lower</sub> and <i>&theta;</i><sub>upper</sub> are used for the simulated
+        hand as well as the scaling of the network output. The PD Impedance Controller is parameterized
+        by <i>K</i><sub>P</sub> and <i>K</i><sub>D</sub>. The parasitic stiffness is modeled by
+        <i>K</i><sub>e</sub>. <i>F</i><sub>static</sub> denotes the static friction force.
     </p>
     <hr>
     <center>
@@ -314,6 +308,8 @@
                 </tr>
             </table>
         </center>
+        "Initial Learning" refers to the learning from scratch, which includes the curriculm. "Continue Learning" refers
+        to the fine tuning that we run with trained polices before deploying them on the real system.
     </p>
     <hr>
     <center>
