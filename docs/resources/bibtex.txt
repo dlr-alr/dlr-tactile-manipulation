@@ -1,6 +1,6 @@
 @article{Sievers2022,
   title={Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand},
-  author={Sievers, Leon and Pitz, Johannes and Bäumel, Berthold},
+  author={Sievers, Leon and Pitz, Johannes and Bäuml, Berthold},
   booktitle={Sumitted ICRA 2022},
   year={2021}
 }
