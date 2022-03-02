@@ -18,11 +18,11 @@ title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Han
 
 ## Paper
 
-[Paper](resources/2022-icra-manipulation.pdf)
+[![image alt text](resources/paper.png)](resources/2022-icra-manipulation.pdf)
 
 ## Video
 
-![300](https://youtu.be/uz9tKWKmIcI)
+![600](https://www.youtube.com/watch?v=uz9tKWKmIcI)
 
 ## Hand Configuration
 
