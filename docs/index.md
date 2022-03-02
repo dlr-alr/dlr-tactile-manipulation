@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
+author: Leon Sievers, Johannes Pitz, Berthold Bäuml
 ---
 
-# Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
-
-Leon Sievers, Johannes Pitz, Berthold Bäuml
 
 ```
 @article{Sievers2022,
