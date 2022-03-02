@@ -4,7 +4,6 @@ title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Han
 youtubeId: uz9tKWKmIcI
 ---
 
-
 # Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
 ### Leon Sievers\*, Johannes Pitz\*, Berthold Bäuml
 
@@ -17,9 +16,13 @@ youtubeId: uz9tKWKmIcI
 }
 ```
 
+<center>
+
 ## Paper
 
-[![image alt text](resources/paper.png)](resources/2022-icra-manipulation.pdf)
+<a href="resources/2022-icra-manipulation.pdf">
+<img class="layered-paper-big" style="height:175px" src="resources/paper.png">
+</a>
 
 ## Video
 
@@ -27,19 +30,21 @@ youtubeId: uz9tKWKmIcI
 
 ## Hand Configuration
 
-![alt text](resources/hand_size.png)
+<img src="resources/hand_size.png" alt="Hand config parameters" width="200"/>
+
 Hand dimensions as well as the angles and their limits. θmin and θmax denote the physical limits of the real kinematics while θlower and θupper are used for the simulated hand as well as the scaling of the network output. The PD Impedance Controller is parameterized by KP and KD. The parasitic stiffness is modeled by Ke. Fstatic denotes the static friction force. 
 
 ## Reward Constants
 
-![300](resources/reward.png)
+<img src="resources/reward.png" alt="Reward parameters" width="200"/>
 
 
 ## Simulator Configuration
 
-![alt text](resources/param_sim.png)
+<img src="resources/param_sim.png" alt="Simulator parameters" width="200"/>
+
 "Initial Learning" refers to the learning from scratch, which includes the curriculm. "Continue Learning" refers to the fine tuning that we run with trained polices before deploying them on the real system. 
 
 ## Learning Configuration
 
-![alt text](resources/param_learn.png)
+<img src="resources/param_learn.png" alt="Learning parameters" width="200"/>
