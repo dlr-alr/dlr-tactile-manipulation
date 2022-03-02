@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
+youtubeId: uz9tKWKmIcI
 ---
 
 
@@ -23,6 +24,7 @@ title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Han
 ## Video
 
 ![600](https://www.youtube.com/watch?v=uz9tKWKmIcI)
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ## Hand Configuration
 
