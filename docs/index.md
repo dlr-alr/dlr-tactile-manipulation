@@ -5,7 +5,7 @@ title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Han
 
 
 # Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
-### Leon Sievers*, Johannes Pitz*, Berthold Bäuml
+### Leon Sievers\*, Johannes Pitz\*, Berthold Bäuml
 
 ```
 @article{Sievers2022,
@@ -16,6 +16,14 @@ title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Han
 }
 ```
 
+## Paper
+
+[Paper](resources/2022-icra-manipulation.pdf)
+
+## Video
+
+![300](https://youtu.be/uz9tKWKmIcI)
+
 ## Hand Configuration
 
 ![alt text](resources/hand_size.png)
@@ -23,7 +31,7 @@ Hand dimensions as well as the angles and their limits. θmin and θmax denote t
 
 ## Reward Constants
 
-![alt text](resources/reward.png)
+![300](resources/reward.png)
 
 
 ## Simulator Configuration
