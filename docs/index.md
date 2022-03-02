@@ -23,7 +23,6 @@ youtubeId: uz9tKWKmIcI
 
 ## Video
 
-![600](https://www.youtube.com/watch?v=uz9tKWKmIcI)
 {% include youtubePlayer.html id=page.youtubeId %}
 
 ## Hand Configuration
