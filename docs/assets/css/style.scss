@@ -5,3 +5,8 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+.site-title {
+  font-size: 1.59rem;
+}

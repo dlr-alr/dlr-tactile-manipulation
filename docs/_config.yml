@@ -2,9 +2,10 @@ theme: minima
 markdown: kramdown
 
 title: Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
-author: leon.sievers@dlr.de
+author: "{leon.sievers,johannes.pitz,berthold.baeuml}@dlr.de"
 
 header_pages:
+  - index.md
   - _pages/hand.md
   - _pages/simulator.md
   - _pages/learning.md
@@ -16,5 +17,3 @@ exclude:
     - .gitignore
     - Gemfile
     - README.md
-
-

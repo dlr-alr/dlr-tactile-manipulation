@@ -5,6 +5,8 @@ title: Learning
 usemathjax: true
 ---
 
+We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} Alogirthm.
+
 ### Reward Constants
 
 |$$\lambda_{\text{spin}}$$|16
