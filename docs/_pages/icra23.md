@@ -1,14 +1,15 @@
 ---
 layout: page
-title: ICRA 23 (sumbitted)
+title: ICRA 23 (submitted)
 usemathjax: true
 ---
 # Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture
----
-This site complements our paper "Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture" by
+
+This site complements our paper **Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture** by
 [Johannes Pitz](https://www.linkedin.com/in/leon-sievers/){:target="_blank"}, Lennart Röstel, [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
----
+![Sequence](../assets/imgs/icra23/sequence.png)
+
 # Abstract
 
 Dextrous in-hand manipulation with a multifingered robotic hand is a challenging task, esp. when performed
@@ -50,17 +51,28 @@ For state estimation, we employ the *Deep Differentiable Proposal Particle Filte
 |gradient clipping by value|5.0
 
 ### Policy
-We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} Alogirthm.
+We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} Alogirthm with the following hyperparameters.
 
 |replay buffer size|1.5e6
 |# workers|80
 |hidden layers|2
 |hidden units|512
-|entropy_target|-6
+
+### Reward
+
+|$$\lambda_{\text{pos}}$$|5.0e6
+|$$\lambda_{\text{clip}}$$|10.0
+|$$\lambda_{\text{drop}}$$|-5.0
+|$$\lambda_{\text{succ}}$$|500.0
+|$$\lambda_{\theta}$$|10.0
+|$$\epsilon_{\theta}$$|0.3
+|$$\lambda_{\text{pos}}''$$|1.0e5
+|$$\lambda_{\phi}$$|200.0
+|$$\lambda_{\text{clip}}''$$|20.0
 
 
 
 ---
 ## Simulation
-The overall simulation setup in PyBullet is similar to our [previous work](_pages/icra22.md). 
+The overall simulation setup in PyBullet is similar to our [previous work](icra22.md). 
 
