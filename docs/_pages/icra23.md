@@ -36,7 +36,32 @@ goal orientations can be reached with a high success rate.
 ## Learning Hyperparameters
 Here we are providing more information on the parameters used during training.
 
-### State Estimator
+
+### Policy Hyperparameters
+We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} alogirthm with the following hyperparameters.
+
+|replay buffer size|1.5e6
+|# workers|80
+|hidden layers|2
+|hidden units|512
+|$$\gamma$$|0.98
+
+### Reward Coefficients
+
+|$$\lambda_{\text{pos}}$$|5.0e6
+|$$\lambda_{\text{clip}}$$|10.0
+|$$\lambda_{\text{drop}}$$|-5.0
+|$$\lambda_{\text{succ}}$$|500.0
+|$$\lambda_{\theta}$$|10.0
+|$$\epsilon_{\theta}$$|0.3
+|$$\lambda_{\text{pos}}'$$|1.0e4
+|$$\lambda_{\theta}'$$|640
+|$$\lambda_{\text{clip}}'$$|38.4
+|$$\lambda_{\text{pos}}''$$|1.0e5
+|$$\lambda_{\phi}$$|200.0
+|$$\lambda_{\text{clip}}''$$|20.0
+
+### Filter Hypterparameters
 For state estimation, we employ the *Deep Differentiable Proposal Particle Filter* method with the following hyperparameters
 
 |# particles (inference)|50
@@ -50,29 +75,11 @@ For state estimation, we employ the *Deep Differentiable Proposal Particle Filte
 |batchsize|320
 |gradient clipping by value|5.0
 
-### Policy
-We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} Alogirthm with the following hyperparameters.
-
-|replay buffer size|1.5e6
-|# workers|80
-|hidden layers|2
-|hidden units|512
-
-### Reward
-
-|$$\lambda_{\text{pos}}$$|5.0e6
-|$$\lambda_{\text{clip}}$$|10.0
-|$$\lambda_{\text{drop}}$$|-5.0
-|$$\lambda_{\text{succ}}$$|500.0
-|$$\lambda_{\theta}$$|10.0
-|$$\epsilon_{\theta}$$|0.3
-|$$\lambda_{\text{pos}}''$$|1.0e5
-|$$\lambda_{\phi}$$|200.0
-|$$\lambda_{\text{clip}}''$$|20.0
-
-
-
 ---
 ## Simulation
-The overall simulation setup in PyBullet is similar to our [previous work](icra22.md). 
+
+|$$\tau_{\text{max}}$$|$$1.0 \text{Nm}$$
+|$$K_P$$|$$5.0 \frac{\text{Nm}}{\text{rad}}$$
+
+For the overall simulation setup in PyBullet, please refer to our [previous work](icra22.md). 
 
