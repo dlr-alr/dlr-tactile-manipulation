@@ -17,4 +17,4 @@ Paper submitted for ICRA 2023 by
 ICRA 2022 contributed paper by
 [Leon Sievers\*](https://www.linkedin.com/in/leon-sievers/){:target="_blank"}, [Johannes Pitz\*](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
-[Preprint](https://arxiv.org/abs/2204.03698){:target="_blank"} / [Video](https://www.youtube.com/embed/ilDlO94lm1g){:target="_blank"}
+[Full Paper](https://ieeexplore.ieee.org/document/9812093){:target="_blank"} / [Video](https://www.youtube.com/embed/ilDlO94lm1g){:target="_blank"}
