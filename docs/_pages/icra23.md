@@ -33,12 +33,14 @@ zero-shot Sim2Real-transfer on the real robotic system, all 24
 goal orientations can be reached with a high success rate.
 
 ---
-## Learning Hyperparameters
-Here we are providing more information on the parameters used during training.
+## Learning and Simulation Configuration
+
+For the overall setup, please refer to our [previous work](icra22.md). 
+Here we only highlight important parameters and list those that differ from the original implementation.
 
 
 ### Policy Hyperparameters
-We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} alogirthm with the following hyperparameters.
+We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} alogirthm.
 
 |replay buffer size|1.5e6
 |# workers|80
@@ -61,8 +63,22 @@ We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_bla
 |$$\lambda_{\phi}$$|200.0
 |$$\lambda_{\text{clip}}''$$|20.0
 
-### Filter Hypterparameters
-For state estimation, we employ the *Deep Differentiable Proposal Particle Filter* method with the following hyperparameters
+### Simulation
+
+
+
+|$$\tau_{\text{max}}$$|1.0 $$\text{Nm}$$
+|$$K_P$$|5.0 $$\frac{\text{Nm}}{\text{rad}}$$
+|cube_mass_random|0.02 $$\text{kg}$$
+|cube_length_random|0.005 $$\text{m}$$
+|friction_spinning ($$\eta_\mathrm{spin}$$)| $$\mathtt{loguniform}$$(2e-4, 2e-2)
+
+
+
+
+---
+## Estimator
+For state estimation, we employ the [Deep Differentiable Proposal Particle Filter](https://www.youtube.com/watch?v=SaBwlCRnR3k){:target="_blank"} method with the following hyperparameters
 
 |# particles (inference)|50
 |# particles (training)|20
@@ -76,10 +92,11 @@ For state estimation, we employ the *Deep Differentiable Proposal Particle Filte
 |gradient clipping by value|5.0
 
 ---
-## Simulation
+## Training Details
 
-|$$\tau_{\text{max}}$$|$$1.0 \text{Nm}$$
-|$$K_P$$|$$5.0 \frac{\text{Nm}}{\text{rad}}$$
-
-For the overall simulation setup in PyBullet, please refer to our [previous work](icra22.md). 
-
+The first phase of the training (S1) takes around a week to train.
+The second phase (S2), with the simple reward function, takes around 2 days.
+S3: Collecting the data (in parallel on 24 cores), and training the estimator (on a Tesla T4 GPU) takes less than a day.
+The iterative refinement of the estimator (S4) takes about 1.5 hours per iteration.
+Finally, refining the policy on the estimator output (S5) takes only a few hours.
+(Note the training has not fully converged at that point, but the results on the real system did not improve with more training time.)
