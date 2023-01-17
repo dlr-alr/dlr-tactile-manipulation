@@ -9,7 +9,7 @@ For more information, please refer to one of the papers below.
 
 
 ### [Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture](_pages/icra23.md)
-Paper submitted for ICRA 2023 by
+Paper accepted for ICRA 2023 by
 [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, Lennart Röstel, [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
 ---
