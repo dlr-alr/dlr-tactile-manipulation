@@ -61,20 +61,36 @@ $$K_\text{D}$$|$$0.36 \frac{\text{Nm s}}{\text{rad}}$$|$$0.36 \frac{\text{Nm s}}
 
 
 
-### Policy Hyperparameters
-
+### Training
 
 |replay buffer size|1.5e6
 |# workers|120
 |hidden layers|2
 |hidden units|512
+
+#### S1
+
+
+|$$\gamma$$|0.95
+|T_s|0.06 $$\text{s}$$|
+
+Curriculum: Starts with $$0.1g$$ and ends with $$1.0g$$
+
+#### S2
+
+|$$\gamma$$|0.97
+|T_s|0.2665 $$\text{s}$$|
+
+#### S5
+
 |$$\gamma$$|0.98
+|T_s|0.2665 $$\text{s}$$|
+|random_force_mag|0.04 $$\text{N}$$
+|random_force_std|0.008 $$\text{N}$$
+|random_torque_mag|0.002 $$\text{Nm}$$
+|random_torque_std|0.0004 $$\text{Nm}$$
 
-<!-- *% Website:*
-*% gravity curriculum*
-% Initial learning config
-% DR difference from S1 and S2 -->
-
+Random forces act on the cube. Magnitue (Normal distribution as above) and direction (uniform) are sampled every 0.5 $$\text{s}$$.
 
 
 ---
