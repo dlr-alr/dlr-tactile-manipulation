@@ -10,6 +10,10 @@ This site complements our paper **Dextrous Tactile In-Hand Manipulation Using a 
 
 ![Sequence](../assets/imgs/icra23/sequence.png)
 
+<p align="center">
+<iframe width="746" height="420" src="https://www.youtube.com/watch?v=0VvSIvtHTq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 # Abstract
 
 Dextrous in-hand manipulation with a multi-fingered robotic hand is a challenging task, esp. when performed with the hand oriented upside down, demanding permanent force-closure, and when no external sensors are used.
