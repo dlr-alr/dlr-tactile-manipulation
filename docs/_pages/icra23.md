@@ -5,7 +5,7 @@ usemathjax: true
 ---
 # Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture
 
-This site complements our paper **Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture** by
+This site complements our paper [**Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture**](https://arxiv.org/abs/2303.04705){:target="_blank"} by
 [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, [Lennart Röstel](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra), [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
 ![Sequence](../assets/imgs/icra23/sequence.png)
