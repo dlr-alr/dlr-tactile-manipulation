@@ -28,8 +28,6 @@ Cite this paper as:
         year = {2023}}
         
 ---
-
----
 ## Learning and Simulation Configuration
 
 For the overall setup, please refer to our [previous work](icra22.md). 
