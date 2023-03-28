@@ -14,7 +14,7 @@ ICRA 2023 by
 
 [Full Paper](https://arxiv.org/abs/2303.04705){:target="_blank"} / [Video](https://www.youtube.com/watch?v=0VvSIvtHTq0){:target="_blank"}
 
-![Sequence](../assets/imgs/icra23/sequence.png)
+![Sequence](assets/imgs/icra23/sequence.png)
 
 ---
 ### [Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand](_pages/icra22.md)
@@ -23,4 +23,4 @@ ICRA 2022 by
 
 [Full Paper](https://arxiv.org/abs/2204.03698){:target="_blank"} / [Video](https://www.youtube.com/watch?v=ilDlO94lm1g){:target="_blank"}
 
-![Sequence](../assets/imgs/icra22/sizes.jpg)
+![Sequence](assets/imgs/icra22/sizes.jpg)
