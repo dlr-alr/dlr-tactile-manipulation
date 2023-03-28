@@ -23,4 +23,4 @@ ICRA 2022 by
 
 [Full Paper](https://arxiv.org/abs/2204.03698){:target="_blank"} / [Video](https://www.youtube.com/watch?v=ilDlO94lm1g){:target="_blank"}
 
-![Sequence](assets/imgs/icra22/sizes.jpg)
+![Sizes](assets/imgs/icra22/sizes.jpg)
