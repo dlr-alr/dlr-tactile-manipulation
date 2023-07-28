@@ -28,3 +28,16 @@ Finally, we show the successful sim2real transfer with rotating the objects to a
 <p align="center">
 <iframe width="746" height="420" src="https://www.youtube.com/embed/rIDo_DmlDF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
+
+---
+
+## Interactive Analysis
+Below are interactive visualization of rollouts of the estimator-coupled policy (EcRL) and the AdaEstim baseline.
+To replay the animation please select "Open Controls" in the upper right corner. Then under "Animations" press "play".
+
+### EcRL (robust)
+<embed type="text/html" src="../assets/imgs/humanoids23/scene_22_ecrl.html" width="746" height="400">
+
+### AdaEstim (non-robust)
+<embed type="text/html" src="../assets/imgs/humanoids23/scene_22_ma.html" width="746" height="400">
+For reference, this trajectory corresponds to figure 2 a) in the paper.
