@@ -3,7 +3,6 @@ layout: page
 title: Humanoids23 (Submitted)
 usemathjax: true
 ---
-![Sequence](../assets/imgs/humanoids23/motiv_pic.png)
 ## Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation
 [Lennart Röstel](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra) &ensp; [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"} &ensp; [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} &ensp; [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}
 
@@ -22,9 +21,10 @@ We show that this approach leads to more robust state estimation and overall hig
 Due to our unified learning scheme and an end-to-end gpu-accalerated implementation, learning only takes 5h to 8h on a single GPU.
 In simulation experiments with the DLR-Hand II and for four significantly different object shapes, we provide an in-depth analysis of the performance of our approach. 
 Finally, we show the successful sim2real transfer with rotating the objects to all 24 possible $$\pi/2$$-orientations.
+![Sequence](../assets/imgs/humanoids23/motiv_pic.png)
 
 ---
 
-## Interactive Analysis
-
-<embed type="text/html" src="../assets/imgs/humanoids23/scene22_ecrl.html" width="746" height="600"> 
+<p align="center">
+<iframe width="746" height="420" src="https://www.youtube.com/embed/rIDo_DmlDF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
