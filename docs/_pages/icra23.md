@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ICRA 23
+title: ICRA23
 usemathjax: true
 ---
 # Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture
