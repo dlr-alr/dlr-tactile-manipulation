@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Humanoids23 (submitted)
+title: Humanoids23 (Submitted)
 usemathjax: true
 ---
 ![Sequence](../assets/imgs/humanoids23/motiv_pic.png)
@@ -26,3 +26,5 @@ Finally, we show the successful sim2real transfer with rotating the objects to a
 ---
 
 ## Interactive Analysis
+
+<embed type="text/html" src="../assets/imgs/humanoids23/scene22_ecrl.html" width="746" height="600"> 
