@@ -12,13 +12,14 @@ usemathjax: true
 
 ## Abstract
 
-This paper identifies the culprits of naively combining learning-based controllers and state estimators for robotic in-hand manipulation. Specifically, we tackle the challenging task of purely tactile, goal-conditioned dextrous in-hand reorientation with the hand pointing downwards.
-Here, we observe that due to the limited sensing available, many control strategies that are feasible in simulation do not allow for accurate state estimation. Hence, separately training the controller and the estimator, and combining the two at test time, leads to poor performance. 
-Our proposed solution to this problem involves training a control policy by reinforcement learning coupled with the state estimator in simulation. 
-We show that this approach leads to more robust state estimation and overall higher performance on the task while maintaining an interpretability advantage over fully end-to-end learning approaches. 
-Due to our unified learning scheme and an end-to-end gpu-accalerated implementation, learning only takes 5h to 8h on a single GPU.
-In simulation experiments with the DLR-Hand II and for four significantly different object shapes, we provide an in-depth analysis of the performance of our approach. 
-Finally, we show the successful sim2real transfer with rotating the objects to all 24 possible $$\pi/2$$-orientations.
+This paper identifies and addresses the problems with naively combining (reinforcement) learning-based controllers and state estimators for robotic in-hand manipulation. Specifically, we tackle the challenging task of purely tactile, goal-conditioned, dextrous in-hand reorientation with the hand pointing downwards.
+Due to the limited sensing available, many control strategies that are feasible in simulation when having full knowledge of the object's state do not allow for accurate state estimation. Hence, separately training the controller and the estimator and combining the two at test time leads to poor performance. 
+We solve this problem by coupling the control policy to the state estimator already during training in simulation.
+This approach leads to more robust state estimation and overall higher performance on the task while maintaining an interpretability advantage over end-to-end policy learning. 
+With our GPU-accelerated implementation, learning from scratch takes a median training time of only 6.5 hours on a single, low-cost GPU.
+In simulation experiments with the DLR-Hand~II and for four significantly different object shapes, we provide an in-depth analysis of the performance of our approach. 
+We demonstrate the successful sim2real transfer by rotating the four objects to all 24 orientations in the $$\pi/2$$ discretization of SO(3), which has never been achieved for such a diverse set of shapes. 
+Finally, our method can reorient a cube consecutively to nine goals (median), which was beyond the reach of previous methods in this challenging setting.
 ![Sequence](../assets/imgs/humanoids23/motiv_pic.png)
 
 ---
