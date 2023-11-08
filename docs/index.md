@@ -11,7 +11,7 @@ For more information, please refer to one of the papers below.
 Humanoids 2023 by
 [Lennart Röstel](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra), [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
-[Video](https://www.youtube.com/watch?v=P8jSDg5TA_E&ab_channel=DLRRM){:target="_blank"}
+[Full Paper](https://arxiv.org/abs/2311.04060){:target="_blank"} / [Video](https://www.youtube.com/watch?v=P8jSDg5TA_E&ab_channel=DLRRM){:target="_blank"}
 
 ![Sequence](assets/imgs/humanoids23/motiv_pic.png)
 
