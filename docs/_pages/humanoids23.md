@@ -4,7 +4,7 @@ title: Humanoids23
 usemathjax: true
 ---
 ## Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation
-[Lennart Röstel](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra) &ensp; [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"} &ensp; [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} &ensp; [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}
+This site complements our paper [**Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation**](https://arxiv.org/abs/2311.04060){:target="_blank"} by [Lennart Röstel](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra) &ensp; [Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"} &ensp; [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} &ensp; [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}
 
 <p align="center">
 <iframe width="746" height="420" src="https://www.youtube.com/embed/P8jSDg5TA_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
