@@ -39,4 +39,4 @@ To replay the animation please select "Open Controls" in the upper right corner.
 
 ### AdaEstim (non-robust)
 <embed type="text/html" src="../assets/imgs/humanoids23/scene_22_ma.html" width="746" height="400">
-For reference, this trajectory corresponds to figure 2 a) in the paper.
+For reference, this trajectory corresponds to figure 3 a) in the paper.
