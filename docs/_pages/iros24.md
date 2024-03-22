@@ -6,15 +6,15 @@ usemathjax: true
 # Learning a Shape-Conditioned Agent for Purley Tactile In-Hand Manipulation of Various Objects
 
 This site complements our paper [**Learning a Shape-Conditioned Agent for Purley Tactile In-Hand Manipulation of Various Objects**](){:target="_blank"} by
-[Johannes Pitz](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, [Lennart Röstel](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra), [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
+[Johannes Pitz\*](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, [Lennart Röstel\*](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra), [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
 
 <!-- <p align="center">
 <iframe width="746" height="420" src="https://www.youtube.com/embed/0VvSIvtHTq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p> -->
 
-![Abstract](../assets/imgs/iros24/title_fig-coords.jpg)
-![Sequence](assets/imgs/humanoids23/motiv_pic.png)
+![Abstract](../assets/imgs/iros24/title_fig-coord.jpg)
+
 # Abstract
 
 Reorienting diverse objects with multi-fingered hands is a challenging task in robotic in-hand manipulation.
