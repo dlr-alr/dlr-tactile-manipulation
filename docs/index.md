@@ -2,8 +2,6 @@
 layout: page
 title: Overview
 ---
-
----
 This site complements our research on purely tactile in-hand manipulation. 
 For more information, please refer to one of the papers below.
 
@@ -14,6 +12,8 @@ Submitted to IROS 2024 by
 <!-- [Full Paper](https://arxiv.org/abs/2311.04060){:target="_blank"} / [Video](https://www.youtube.com/watch?v=P8jSDg5TA_E&ab_channel=DLRRM){:target="_blank"} -->
 
 ![Abstract](assets/imgs/iros24/title_fig-coord.jpg)
+
+---
 
 ### [Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation](_pages/humanoids23.md)
 Humanoids 2023 by
