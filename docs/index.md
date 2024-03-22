@@ -5,7 +5,7 @@ title: Overview
 This site complements our research on purely tactile in-hand manipulation. 
 For more information, please refer to one of the papers below.
 
-### [Learning a Shape-Conditioned Agent for Purely Tactile In-Hand Manipulation of Various Objects](_pages/iros24.md)
+<!-- ### [Learning a Shape-Conditioned Agent for Purely Tactile In-Hand Manipulation of Various Objects](_pages/iros24.md)
 Submitted to IROS 2024 by
 [Johannes Pitz\*](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, [Lennart Röstel\*](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra), [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.
 
@@ -13,7 +13,7 @@ Submitted to IROS 2024 by
 
 ![Abstract](assets/imgs/iros24/title_fig-coord.jpg)
 
----
+--- -->
 
 ### [Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation](_pages/humanoids23.md)
 Humanoids 2023 by
