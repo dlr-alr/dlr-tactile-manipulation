@@ -10,10 +10,8 @@ This site complements our paper [**Learning a Shape-Conditioned Agent for Purely
 
 
 <p align="center">
-<iframe width="746" height="420" src="https://www.youtube.com/watch?v=5I9RQT82m-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="746" height="420" src="https://www.youtube.com/embed/5I9RQT82m-A?si=VmW4e3xsPmizoH2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
-
-![Abstract](../assets/imgs/iros24/title_fig-coord.jpg)
 
 # Abstract
 
@@ -24,6 +22,8 @@ To achieve this, we propose a learning framework that exploits shape information
 We find that representing 3D shapes by vectors from a fixed set of basis points to the shape's surface, transformed by its predicted 3D pose, is especially helpful for learning dexterous in-hand manipulation agents. 
 Our simulation and real-world experiments show the reorientation of many objects with high success rates, on par with state-of-the-art results obtained with specialized single-object agents.
 Moreover, we show generalization to novel objects, achieving success rates of ∼90% even for some non-convex shapes.
+
+![Abstract](../assets/imgs/iros24/title_fig-coord.jpg)
 
 <!-- Cite this paper as:
 
