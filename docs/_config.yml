@@ -9,6 +9,7 @@ header_pages:
   - _pages/icra22.md
   - _pages/icra23.md
   - _pages/humanoids23.md
+  - _pages/iros24.md
 
 include:
     - _pages
