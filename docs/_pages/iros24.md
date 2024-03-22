@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IROS24
+title: Submitted to IROS24
 usemathjax: true
 ---
 # Learning a Shape-Conditioned Agent for Purley Tactile In-Hand Manipulation of Various Objects
