@@ -2,3 +2,4 @@ https://dlr-alr.github.io/dlr-tactile-manipulation/
 https://dlr-alr.github.io/dlr-tactile-manipulation/_pages/icra22.html
 https://dlr-alr.github.io/dlr-tactile-manipulation/_pages/icra23.html
 https://dlr-alr.github.io/dlr-tactile-manipulation/_pages/humanoids23.html
+https://dlr-alr.github.io/dlr-tactile-manipulation/_pages/iros24.html
