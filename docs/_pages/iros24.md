@@ -8,29 +8,36 @@ usemathjax: true
 This site complements our paper [**Learning a Shape-Conditioned Agent for Purely Tactile In-Hand Manipulation of Various Objects**](){:target="_blank"} by
 [Johannes Pitz\*](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"}, [Lennart Röstel\*](https://scholar.google.com/citations?user=BPUd5h0AAAAJ&hl=en&oi=sra), [Leon Sievers](https://www.linkedin.com/in/leon-sievers/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"} submitted to the 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems.
 
+## Hyperparameters
+Below, we provide the hyperparameters used for training the purely tactile agent.
 
-<p align="center">
-<iframe width="746" height="420" src="https://www.youtube.com/embed/5I9RQT82m-A?si=VmW4e3xsPmizoH2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+#### EcRL Training Parameters 
+See [Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation](https://arxiv.org/abs/2311.04060){:target="_blank"} for definitions
 
-# Abstract
+|$$\rho_0$$ | $$1.0$$
+|$$\delta_{\rho}$$ | $$5\times 10^{-4}$$
+|rollout length $$T$$| $$32$$
+|data reusage ($$k$$) | $$4$$
 
-Reorienting diverse objects with multi-fingered hands is a challenging task in robotic in-hand manipulation.
-Unlike the human counterpart, current methods for goal-oriented in-hand reorientation are either object-specific or require permanent supervision of the object state from visual sensors. 
-In this work, we address this gap by training shape-conditioned agents to reorient diverse objects in hand, relying purely on torque and position feedback (i.e., purely tactile). 
-To achieve this, we propose a learning framework that exploits shape information in a reinforcement learning policy and a learned state estimator. 
-We find that representing 3D shapes by vectors from a fixed set of basis points to the shape's surface, transformed by its predicted 3D pose, is especially helpful for learning dexterous in-hand manipulation agents. 
-Our simulation and real-world experiments show the reorientation of many objects with high success rates, on par with state-of-the-art results obtained with specialized single-object agents.
-Moreover, we show generalization to novel objects, achieving success rates of ∼90% even for some non-convex shapes.
+#### Estimator Parameters
 
-![Abstract](../assets/imgs/iros24/title_fig-coord.jpg)
+|learning rate | $$5\times 10^{-4}$$
+|Adam $$\beta_1, \beta_2$$ | $$0.9$$, $$0.99$$
+|weight decay | $$1\times 10^{-5}$$
+|hidden layers $$f_{\varphi}$$| [512, 512, 512, 512]
+|hidden layers $$f_{\sigma}$$| [256, 256, 256, 256]
+|minibatch size | $$2^{10}$$
+|latent dimensions $$n$$| $$32$$
+|clip gradient by norm| $$1.0$$
 
-<!-- Cite this paper as:
 
-    @inproceedings{Pitz2024,
-        author = {Johannes Pitz and Lennart R{\"o}stel and Leon Sievers and Berthold B{\"a}uml},
-        booktitle = {Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems},
-        title = Learning a Shape-Conditioned Agent for Purely Tactile In-Hand Manipulation of Various Objects},
-        year = {2024}}
-        
---- -->
+#### Policy Training Parameters 
+We train a policy and a value funtion using PPO with the following parameters:
+
+|learning rate | adaptive, based on kl-divergence
+|hidden layers | [512, 512, 256, 128]
+|minibatch size | $$2^{15}$$
+|$$\epsilon_{clip}$$ | $$0.2$$
+|entropy coeff | $$1\times 10^{-3}$$
+|discount factor | $$0.95$$
+|$$\gamma$$ | $$0.99$$
