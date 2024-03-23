@@ -35,6 +35,7 @@ See [Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand 
 We train a policy and a value funtion using PPO with the following parameters:
 
 |learning rate | adaptive, based on kl-divergence
+|weight decay | $$1\times 10^{-5}$$
 |hidden layers | [512, 512, 256, 128]
 |minibatch size | $$2^{15}$$
 |$$\epsilon_{clip}$$ | $$0.2$$
