@@ -40,5 +40,5 @@ We train a policy and a value funtion using PPO with the following parameters:
 |minibatch size | $$2^{15}$$
 |$$\epsilon_{clip}$$ | $$0.2$$
 |entropy coeff | $$1\times 10^{-3}$$
-|discount factor | $$0.95$$
+|GAE $$\lambda$$ | $$0.95$$
 |$$\gamma$$ | $$0.99$$
