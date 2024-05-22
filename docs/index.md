@@ -1,5 +1,4 @@
 ---
-permalink: /overview
 layout: page
 title: Overview
 ---
