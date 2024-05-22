@@ -1,4 +1,5 @@
 ---
+permalink: /icra22
 layout: page
 title: ICRA22
 usemathjax: true

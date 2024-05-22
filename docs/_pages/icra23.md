@@ -1,4 +1,5 @@
 ---
+permalink: /icra23
 layout: page
 title: ICRA23
 usemathjax: true
