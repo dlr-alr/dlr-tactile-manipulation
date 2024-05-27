@@ -49,8 +49,8 @@ Below are interactive visualization of rollouts of the estimator-coupled policy 
 To replay the animation please select "Open Controls" in the upper right corner. Then under "Animations" press "play".
 
 ### EcRL (robust)
-<embed type="text/html" src="../assets/imgs/humanoids23/scene_22_ecrl.html" width="746" height="400">
+<embed type="text/html" src="./assets/imgs/humanoids23/scene_22_ecrl.html" width="746" height="400">
 
 ### AdaEstim (non-robust)
-<embed type="text/html" src="../assets/imgs/humanoids23/scene_22_ma.html" width="746" height="400">
+<embed type="text/html" src="./assets/imgs/humanoids23/scene_22_ma.html" width="746" height="400">
 For reference, this trajectory corresponds to figure 3 a) in the paper.
