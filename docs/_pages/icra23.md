@@ -20,11 +20,16 @@ Dextrous in-hand manipulation with a multi-fingered robotic hand is a challengin
 
 Cite this paper as:
 
-    @inproceedings{Pitz2023,
-        author = {Johannes Pitz and Lennart R{\"o}stel and Leon Sievers and Berthold B{\"a}uml},
-        booktitle = {Proc. IEEE International Conference on Robotics and Automation},
-        title = {Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture},
-        year = {2023}}
+    @inproceedings{Pitz_2023,
+       title={Dextrous Tactile In-Hand Manipulation Using a Modular Reinforcement Learning Architecture},
+       url={http://dx.doi.org/10.1109/ICRA48891.2023.10160756},
+       DOI={10.1109/icra48891.2023.10160756},
+       booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+       publisher={IEEE},
+       author={Pitz, Johannes and Röstel, Lennart and Sievers, Leon and Bäuml, Berthold},
+       year={2023},
+       month=may }
+
         
 ---
 ## Learning and Simulation Configuration
