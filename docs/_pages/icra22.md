@@ -27,8 +27,6 @@ Cite this paper as:
     @inproceedings{Sievers2022,
         author = {Leon Sievers and Johannes Pitz and Berthold B{\"a}uml},
         booktitle = {Proc. IEEE International Conference on Robotics and Automation},
-        date-added = {2021-10-03 10:55:06 +0200},
-        date-modified = {2022-04-11 09:37:32 +0200},
         title = {Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand},
         year = {2022}}
         
