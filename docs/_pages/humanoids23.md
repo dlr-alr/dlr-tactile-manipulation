@@ -20,7 +20,20 @@ With our GPU-accelerated implementation, learning from scratch takes a median tr
 In simulation experiments with the DLR-Hand~II and for four significantly different object shapes, we provide an in-depth analysis of the performance of our approach. 
 We demonstrate the successful sim2real transfer by rotating the four objects to all 24 orientations in the $$\pi/2$$ discretization of SO(3), which has never been achieved for such a diverse set of shapes. 
 Finally, our method can reorient a cube consecutively to nine goals (median), which was beyond the reach of previous methods in this challenging setting.
-![Sequence](../assets/imgs/humanoids23/motiv_pic.png)
+<!---![Sequence](../assets/imgs/humanoids23/motiv_pic.png) -->
+
+
+Cite this paper as:
+
+    @inproceedings{Roestel_2023,
+       title={Estimator-Coupled Reinforcement Learning for Robust Purely Tactile In-Hand Manipulation},
+       url={http://dx.doi.org/10.1109/Humanoids57100.2023.10375194},
+       DOI={10.1109/humanoids57100.2023.10375194},
+       booktitle={2023 IEEE-RAS 22nd International Conference on Humanoid Robots (Humanoids)},
+       publisher={IEEE},
+       author={Röstel, Lennart and Pitz, Johannes and Sievers, Leon and Bäuml, Berthold},
+       year={2023},
+       month=dec }
 
 ---
 
