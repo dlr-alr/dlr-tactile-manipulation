@@ -4,7 +4,7 @@ layout: page
 title: ICRA22
 usemathjax: true
 ---
-# Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
+## Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand
 
 This site complements our ICRA 2022 paper [**Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand**](https://arxiv.org/abs/2204.03698){:target="_blank"} by
 [Leon Sievers\*](https://www.linkedin.com/in/leon-sievers/){:target="_blank"}, [Johannes Pitz\*](https://www.linkedin.com/in/johannes-pitz/){:target="_blank"} and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ){:target="_blank"}.    
@@ -17,7 +17,7 @@ Here we are providing more information on the robotic hardware as well as the pa
 
 [comment]: ![Justin](/assets/imgs/index/cube_justin_new.jpg)
 
-# Abstract
+## Abstract
 
 ---
 We show that a purely tactile dextrous in-hand manipulation task with continuous regrasping, requiring permanent force closure, can be learned from scratch and executed robustly on a torque-controlled humanoid robotic hand. The task is rotating a cube without dropping it, but in contrast to [OpenAI's seminal cube manipulation task](https://openai.com/blog/learning-dexterity/){:target="_blank"}, the palm faces downwards and no cameras but only the hand's position and torque sensing are used. Although the task seems simple, it combines for the first time all the challenges in execution as well as learning that are important for using in-hand manipulation in real-world applications. We efficiently train in a precisely modeled and identified rigid body simulation with off-policy deep reinforcement learning, significantly sped up by a domain adapted curriculum, leading to a moderate 600 CPU hours of training time. The resulting policy is robustly transferred to the real humanoid DLR Hand-II, e.g., reaching more than 46 full 2π rotations of the cube in a single run and allowing for disturbances like different cube sizes, hand orientation, or pulling a finger.
@@ -34,7 +34,7 @@ Cite this paper as:
         year = {2022}}
         
 ---
-# Hand
+## Hand
 
 We use the [DLR Hand II](https://www.dlr.de/rm/en/Portaldata/52/Resources/Roboter_und_Systeme/Hand/icra2001next.pdf){:target="_blank"}.
 
@@ -53,7 +53,7 @@ $$F_\text{static}$$|$$0.02\text{Nm}$$|$$0.02\text{Nm}$$|$$0.02\text{Nm}$$
 Hand dimensions as well as the angles and their limits. $$\Theta_{\text{min}}$$ and $$\Theta_{\text{max}}$$ denote the physical limits of the real kinematics while $$\Theta_{\text{lower}}$$ and $$\Theta_{\text{upper}}$$ are used for the simulated hand as well as the scaling of the network output. The PD Impedance Controller is parameterized by $$K_{\text{P}}$$ and $$K_{\text{D}}$$. The parasitic stiffness is modeled by $$K_{\text{e}}$$. $$F_{\text{static}}$$ denotes the static friction force.
 
 ---
-# Simulator
+## Simulator
 
 
 We are using [PyBullet](https://pybullet.org/){:target="_blank"} as our rigid body simulator.
@@ -84,7 +84,7 @@ We are using [PyBullet](https://pybullet.org/){:target="_blank"} as our rigid bo
 |motor_noise_std|0.02 $$\text{rad}$$
 
 ---
-# Learning
+## Learning
 
 
 We use the [Soft Actor-Critic](https://arxiv.org/abs/1812.05905v2){:target="_blank"} Alogirthm.
